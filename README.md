@@ -1,13 +1,13 @@
 Redmine-RepositoriesUpdateIssuewithSVNcommit
-============================================
-
-Redmine repositories update Resolved By and Resolution Type custom fields when svn commit resolves an issue and Automatically update Resolved By field to the current user
-And When user change issue status "Resolved and Reviewed by " automatically change the current user
+--------------------------------------------
+  When SVN commit association with particluar issues under displaying revisions number suddenly will appear issues page
 
 
 Installation notes
+-------------------
 
 Steps:
-Download last version from https://github.com/johnp2686/Redmine-RepositoriesUpdateIssuewithSVNcommit.git
-rake redmine:plugins:migrate RAILS_ENV=production
-Restart you Redmine.
+1.Download last version from https://github.com/johnp2686/Redmine-RepositoriesUpdateIssuewithSVNcommit.git,
+2.change name Redmine-RepositoriesUpdateIssuewithSVNcommit to redmine_issueupdate,
+3.rake redmine:plugins:migrate RAILS_ENV=production,
+4.Restart you Redmine.
