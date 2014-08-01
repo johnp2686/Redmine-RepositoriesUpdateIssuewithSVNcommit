@@ -1,4 +1,4 @@
-Redmine-RepositoriesUpdateIssuewithSVNcommit
+Svn commit with issue association 
 --------------------------------------------
   When SVN commit association with particluar issues under displaying revisions number suddenly will appear issues page
 
