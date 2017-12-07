@@ -18,7 +18,7 @@ module RedmineIssueupdate
       end 
 
       if resolutiontype_cv.present?
-        resolutiontype_cv.update_attribute :value,"FIXED"
+        resolutiontype_cv.update_attribute :value,"FIXED" # update attribute values
       else
         CustomValue.create!(:customized_type => "Issue", :customized_id => @issue.id, :value =>"FIXED", :custom_field_id => resolutiontype_cf.id)
       end 
